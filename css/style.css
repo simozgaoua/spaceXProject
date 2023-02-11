@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Familjen+Grotesk:wght@400;600;700&family=Roboto:wght@500&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Familjen Grotesk', sans-serif;
+    background: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header/ Navbar */
+
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    height: 100px;
+    padding: 0 30px;
+}
+
+/* Logo */
+
+.logo {
+    width: 210px;
+    height: auto;
+}
+
+.logo img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Desktop Menu */
+
+.desktop-main-menu {
+    margin-right: 50px;
+}
+
+.desktop-main-menu ul {
+    display: flex;
+}
+
+.desktop-main-menu ul li {
+    position: relative;
+    margin-right: 20px;
+    padding-bottom: 2px;
+}
