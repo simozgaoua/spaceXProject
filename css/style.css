@@ -88,3 +88,37 @@ ul {
     transform-origin: left center;
     transition-duration: 0.4s;
 }
+
+/* Sections */
+section {
+    position: relative;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+}
+
+.section-inner {
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+    max-width: 560px;
+}
+
+.section-inner h4 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+.section-inner h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Background images */
+.section-a {
+    background-image: url('../img/section-a.webp');
+}
