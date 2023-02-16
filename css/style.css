@@ -110,12 +110,22 @@ section {
     font-size: 22px;
     margin-bottom: 5px;
     font-weight: 300;
+    /* 0.2s delay */
+    animation: fadeInUp 0.5s ease-in-out;
 }
 
 .section-inner h2 {
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 20px;
+    animation: fadeInUp 0.5s ease-in-out 0.2s;
+    /* stop from showing at the start */
+    animation-fill-mode: both;
+}
+
+.section-inner a {
+    animation: fadeInUp 0.5s ease-in-out 0.4s;
+    animation-fill-mode: both;
 }
 
 /* Background images */
@@ -159,3 +169,15 @@ section {
 }
 
 /* Animations */
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(140px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
