@@ -1,5 +1,5 @@
 const btn = document.getElementById('menu-btn');
-const overlay=document.getElementById('overlay');
+const overlay = document.getElementById('overlay');
 
 btn.addEventListener('click',navToggle);
 
