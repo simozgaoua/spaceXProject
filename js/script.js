@@ -45,7 +45,7 @@ function countUp(){
             //round up and set the counter value
             counter.innerText = `${Math.ceil(c + incremnet)}`;
             //repeat
-            setTimeout(updateCounter,75);
+            setTimeout(updateCounter,70);
         } else {
             counter.innerText = target;
         }
