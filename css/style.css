@@ -352,6 +352,14 @@ footer ul li a:hover {
     background-image: url('../img/falcon-9.webp');
 }
 
+.bg-falcon-heavy {
+    background-image: url('../img/falcon-heavy.webp');
+}
+
+.bg-dragon {
+    background-image: url('../img/dragon.webp');
+}
+
 .section-animate {
     animation: fadeIn 2s ease-in-out;
 }
@@ -363,6 +371,7 @@ footer ul li a:hover {
     transform: translate(-50%, -50%);
     text-transform: uppercase;
     text-align: center;
+    width: 80%;
 }
 
 .section-inner-center h3 {
@@ -453,6 +462,10 @@ footer ul li a:hover {
         display: block;
     }
 
+    .section-inner-center h3 {
+        font-size: 75px;
+    }
+
 }
 
 @media(max-width:600px) {
@@ -480,4 +493,18 @@ footer ul li a:hover {
         width: 150px;
         margin: auto;
     }
+
+    .section-inner-center h3 {
+        font-size: 50px;
+    }
+
+    /* Stats */
+    .stats {
+        flex-direction: column;
+    }
+
+    .stats div {
+        margin-bottom: 20px;
+    }
+
 }
